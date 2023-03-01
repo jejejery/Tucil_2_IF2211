@@ -25,7 +25,8 @@ Tugas Kecil ini Merupakan Implementasi Algoritma Divide and Conquer yang Kami pe
 ## Cara Penggunaan
 - **Pastikan kalian sudah menginstall Python beserta ekstensi yang diperlukan(pustaka visualizer(matplotlib) dan Numpy)**
 - Klon repository ini ke komputer kalian
-- 
+- Jalankan main.py di folder src
+- Enjoy the algorithm!
 
 ## Tentang Tucil beserta Algoritmanya
 Algoritma divide and conquer merupakan strategi pemecahan masalah dengan melakukan dekomposisi atau pemecahan masalah menjadi upa masalah yang lebih kecil. Adapun proses ini dalam bidang ilmu komputer secara umum dibagi menjadi tiga buah proses yaitu Divide, Conquer dan Combine.
