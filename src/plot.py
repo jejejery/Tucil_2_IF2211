@@ -11,12 +11,12 @@ def visualize3D(arr, pair):
     fig.suptitle('Closest Point in 3D plot')
     ax = plt.axes(projection="3d")
     
-    fg = ax.scatter3D(x, y, z, alpha = 0.25)
+    fg = ax.scatter3D(x, y, z, alpha = 0.5)
     fg = ax.scatter3D(pair[0][0], pair[0][1], pair[0][2], color='r', alpha = 1)
     fg = ax.scatter3D(pair[1][0], pair[1][1], pair[1][2], color='r', alpha = 1)
     
-    ax.set_xlabel("x")
-    ax.set_ylabel("y")
-    ax.set_label("z")
+    ax.set_xlabel("x-axis")
+    ax.set_ylabel("y-axis")
+    ax.set_zlabel("z-axis")
     
     plt.show()
