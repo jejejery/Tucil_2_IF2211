@@ -39,10 +39,11 @@ print(f"Minimum distance           : {minima}")
 print(f"Euclidean distance counter : {solve.calc_step}")
 print(f"Computation time           : {toc-tic}s")
 
-vis_valid = input("Visualize the result? (y/n)")
-while vis_valid != "y" and vis_valid != "n":
-    print("Input not valid, please choose between y/n")
+if (dim == 3):
     vis_valid = input("Visualize the result? (y/n)")
+    while vis_valid != "y" and vis_valid != "n":
+        print("Input not valid, please choose between y/n")
+        vis_valid = input("Visualize the result? (y/n)")
 
-if vis_valid == "y":
-    visualize3D(x, min_pair_dnc)
+    if vis_valid == "y":
+        visualize3D(x, min_pair_dnc)
